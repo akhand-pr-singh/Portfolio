@@ -6,8 +6,8 @@ body, h1, h2, ul, li, p {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:  #E6E6FA; /* Beige */
-    color: #800080 ; /* Burgundy */
+    background-color:  #E6E6FA; 
+    color: #800080 ;
 }
 
 .container {
