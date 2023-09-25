@@ -58,12 +58,8 @@ header .logo {
 
 .nav-menu a:hover {
     color: #FFA500;
-    /* Orange on hover */
 }
 
-/* Trying to put the skills and projects side by side */
-
-/* Style for the portfolio section */
 .portfolio-wrapper {
     display: flex;
     justify-content: space-between;
@@ -73,7 +69,6 @@ header .logo {
 .portfolio-column {
     display: flex;
     margin-right: 0px;
-    /* Add spacing between columns */
 }
 
 #pc-1 {
@@ -106,10 +101,6 @@ header .logo {
     height: auto;
 }
 
-
-/* ... (previous CSS rules) ... */
-
-/* Style for the horizontal progress bars */
 .skill {
     margin-bottom: 20px;
     text-align: left;
@@ -122,26 +113,18 @@ header .logo {
 
 .progress {
     background-color: #f5f5f5;
-    /* Background color of the progress bar */
     height: 20px;
-    /* Height of the progress bar */
     position: relative;
 }
 
 .progress-bar {
     background-color: #007acc;
-    /* Color of the progress bar */
     height: 100%;
-    /* Initial width is 0; it will be adjusted using data-progress attribute */
     width: 0;
     transition: width 0.5s ease-in-out;
     color: white;
     text-align: center;
 }
-
-/* ... (rest of your CSS code) ... */
-
-/* -------------------------------------------------------- */
 
 .section {
     background-color: #fff;
@@ -159,11 +142,8 @@ header .logo {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    /* Adds rounded corners to images */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    /* Adds a subtle shadow to images */
     margin-bottom: 10px;
-    /* Adds some spacing between project images */
 }
 
 footer {
@@ -178,11 +158,24 @@ footer h2 {
     margin: 0;
 }
 
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 footer p {
     margin: 10px 0;
 }
 
-/* Add more styles as needed */
+/* Responsiveness Adjustments */
 
 @media (max-width: 767px) {
     header .logo {
@@ -203,12 +196,12 @@ footer p {
         justify-content: space-between;
     }
 
-    #pc-1{
-        width:100%;
+    #pc-1 {
+        width: 100%;
     }
 
-    #pc-2{
-        width:100%;
+    #pc-2 {
+        width: 100%;
     }
 
     .portfolio-projects {
